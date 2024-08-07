@@ -4,9 +4,32 @@
 vendor/etc/audconf/OPEN/acdb_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
+# Audio
+vendor/lib/librecordalive.so
+vendor/lib64/librecordalive.so
+
+# Audio FX modules
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswspatializer.so
+
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
 vendor/etc/dolby/dax-default.xml
+vendor/etc/situation_audio_policy_volumes_sec.xml
+
+# Audio firmware
+vendor/firmware/SoundBoosterParam.bin
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs40l26-calib.bin
+vendor/firmware/cs40l26-dvl.bin
+vendor/firmware/cs40l26-wt1.bin
+vendor/firmware/cs40l26-wt2.bin
+vendor/firmware/cs40l26-wt3.bin
+vendor/firmware/cs40l26.bin
+vendor/firmware/dax_param.bin
 
 # Bluetooth firmware
 vendor/firmware/bt_nvm_loading.xml
@@ -106,6 +129,14 @@ vendor/lib/camera/fdconfigpreviewlite.bin
 vendor/lib/camera/fdconfigsecure.bin
 vendor/lib/camera/fdconfigvideo.bin
 vendor/lib/camera/fdconfigvideolite.bin
+vendor/lib/com.qti.chiusecaseselector.so
+vendor/lib/com.qti.stats.common.so
+vendor/lib/libcamerapostproc.so
+vendor/lib/libcamxexternalformatutils.so
+vendor/lib/libcamximageformatutils.so
+vendor/lib/libcamxswispiqmodule.so
+vendor/lib/libcom.qti.chinodeutils.so
+vendor/lib/libhypermotion_interface.so
 vendor/lib/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/SWPD_libTsAf_3K1_TELE.so
 vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
@@ -196,6 +227,7 @@ vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
 vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib64/com.qti.camx.chiiqutils.so
+vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.afbrckt.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -219,6 +251,8 @@ vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.statsregeneration.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/com.qti.settings.sm8550.so
+vendor/lib64/com.qti.stats.common.so
 vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
@@ -238,17 +272,36 @@ vendor/lib64/libcamxsettingsmanager.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libchifeature2.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libhypermotion_interface.so
+vendor/lib64/libsecfr_model.so
 vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
+vendor/lib64/libvdis.uniplugin@1.0.so
 
 # Camera firmware
+vendor/firmware/CAMERA_ICP.b20
+vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/ois_mcu_stm32g_fw.bin
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json
 vendor/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json
+
+# EVA firmware
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+
+# Fingerprint
+vendor/lib64/libsfp_sensor.so
+
+# Graphics (Adreno firmware)
+vendor/firmware/a740_zap.b02
+vendor/firmware/a740_zap.mbn
+vendor/firmware/a740_zap.mdt
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
@@ -271,6 +324,9 @@ vendor/lib64/sensors.flicker.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
+# Thermal engine
+vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
+
 # Touchscreen firmware
 vendor/firmware/tsp_stm/fts2ba61y_dm1q.bin
 vendor/firmware/tsp_stm/fts2ba61y_dm1q_boe.bin
@@ -292,6 +348,9 @@ vendor/firmware/hpnv21g.bb7
 vendor/firmware/hpnv21g.bb9
 vendor/firmware/hpnv21g.bin
 vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
+
+# VPU firmware
+vendor/firmware/vpu30_4v.mbn
 
 # Wifi firmware
 vendor/firmware/Data.msc
