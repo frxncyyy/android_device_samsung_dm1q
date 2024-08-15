@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from S9110ZHS4CXG2
+# All unpinned blobs are extracted from S911BXXS6CXFC
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
@@ -307,6 +307,7 @@ vendor/firmware/a740_zap.mdt
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
 # RIL
+vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 
